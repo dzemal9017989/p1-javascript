@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<bodyscript>
+    <h1 id="title">JavaScript is leerzaam!</h1>
+
+    <text type="button" onclick='document.getElementById("title").innerHTML = "School begins about 2 weeks"'></text>
+    <script>
+
+
+    document.getElementById("title").addEventListener("mousedown", btnpressed);
+    document.getElementById("title").addEventListener("mouseup", btnup);
+    function btnpressed() {
+        document.getElementById("title").innerHTML = "School is a good thing in life!" ;
+    }
+    function btnup(){
+        document.getElementById("title").innerHTML = "Js is a must learn for programmers!"
+    }
+    
+
+
+    </script>
+</body>
+</html>
